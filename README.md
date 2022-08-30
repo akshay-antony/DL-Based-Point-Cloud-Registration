@@ -49,7 +49,8 @@ To train the model &nbsp;
   --dataset N           dataset to use
   --factor N            Divided factor for rotations
   --model_path N        Pretrained model path
-  --agg_fun_name N      agg functions to use ```
+  --agg_fun_name N      agg functions to use 
+```
 
 
 This repo contains code from [Deep Closest Point](https://github.com/WangYueFt/dcp)
