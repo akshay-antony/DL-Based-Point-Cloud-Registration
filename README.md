@@ -1,4 +1,22 @@
 # Deep-Learning-ICP
+
+The model uses Graph attention layers to extract features from the two point clouds required for registration
+
+<p align="center" width="100%">
+     Deep Learning Architecture of Registration
+    <img width="100%" src="./images/dcp_net.png">
+</p>
+
+<p align="center" width="100%">
+    Results of point cloud registration on ModelNet40 dataset.
+    <img width="100%" src="./images/image6.gif">
+</p>
+
+<p align="center" width="100%">
+    Results of point cloud registration on KITTI downsampled lidar frames.
+    <img width="100%" src="./images/image1.gif">
+</p>
+
 To train the model &nbsp;
 ``` python3 main.py ```
 ``` optional arguments:
@@ -32,3 +50,6 @@ To train the model &nbsp;
   --factor N            Divided factor for rotations
   --model_path N        Pretrained model path
   --agg_fun_name N      agg functions to use ```
+
+
+This repo contains code from [Deep Closest Point](https://github.com/WangYueFt/dcp)
